@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ColorfulComponent from './components/ColorfulComponent';
 
 function App() {
   const [message, setMessage] = useState('Loading message...');
@@ -13,22 +13,13 @@ function App() {
           setMessage('Error fetching message');
         });
   }, []);
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>{message}</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <h1>Welcome to the Colorful React App!</h1>
+            <p>{message}</p>
+            <ColorfulComponent />
+        </div>
+    );
 }
 
 export default App;

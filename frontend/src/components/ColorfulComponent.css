@@ -1,0 +1,22 @@
+.colorful-box {
+    background: #00d2ff;
+    border: 2px solid #3a7bd5;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    animation: colorChange 5s infinite alternate;
+}
+
+@keyframes colorChange {
+    0% {
+        background: #00d2ff;
+    }
+    50% {
+        background: #3a7bd5;
+    }
+    100% {
+        background: #00d2ff;
+    }
+}
