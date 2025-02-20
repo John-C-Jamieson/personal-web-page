@@ -1,7 +1,6 @@
 import React from 'react';
-import './ColorfulComponent.css';
 
-const ColorfulComponent: React.FC = () => {
+const Home: React.FC = () => {
     return (
         <div className="colorful-box">
             <p>This component is vibrant and full of colors!</p>
@@ -9,4 +8,4 @@ const ColorfulComponent: React.FC = () => {
     );
 };
 
-export default ColorfulComponent;
+export default Home;
