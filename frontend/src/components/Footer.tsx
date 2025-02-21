@@ -4,7 +4,7 @@ import '../styles/Footer.css';
 const Footer: React.FC = () => {
     return (
         <footer className="footer">
-            <p>&copy; {new Date().getFullYear()} My App. All rights reserved.</p>
+            <p>"Democracy is the worst form of government, except for all the others that have been tried." - Winston Churchill</p>
         </footer>
     );
 };

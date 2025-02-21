@@ -1,9 +1,21 @@
 /* Glassmorphism Effect (Frosted Glass) */
-.footer {
-    text-align: center;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 1rem 2rem;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.navbar-links {
+    display: flex;
 }

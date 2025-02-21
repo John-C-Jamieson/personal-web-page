@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +13,22 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(45deg, #f3ec78, #af4261);
-    color: #fff;
+    background: linear-gradient(135deg, #0a192f, #1e3a8a, #3b82f6, #1e293b);
+    background-size: 400% 400%;
+    animation: iceFlow 15s ease infinite;
+    color: #ffffff;
+}
+
+/* icy movement */
+@keyframes iceFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
     padding: 20px;
 }
