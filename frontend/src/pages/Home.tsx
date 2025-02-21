@@ -5,7 +5,7 @@ const Home: React.FC = () => {
     return (
         <main className="home">
             <section className="hero">
-                <img src="head.jpg" alt="a small picture of John" className="hero-image" />
+                <img src="head.jpg" alt="small John" className="hero-image" />
                 <div className="hero-content">
                     <h1>John Jamieson</h1>
                     <p className="tagline">Software Developer & Former Senior Business Analyst</p>
@@ -23,7 +23,7 @@ const Home: React.FC = () => {
             <section className="featured-image-section">
                 <img
                     src="bigHead.jpg"
-                    alt="a big picture of John"
+                    alt="big John"
                     className="featured-image"
                 />
             </section>
