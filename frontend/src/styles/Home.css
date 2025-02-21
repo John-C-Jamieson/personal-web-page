@@ -39,26 +39,6 @@
     margin: 1rem auto;
 }
 
-/* Call-to-Action Buttons */
-.cta-buttons {
-    margin-top: 1.5rem;
-}
-
-.btn {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    margin: 0 0.5rem;
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #fff;
-    text-decoration: none;
-    border-radius: 25px;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: rgba(255, 255, 255, 0.4);
-}
-
 .featured-image-section {
     margin-top: 2rem;
     display: flex;

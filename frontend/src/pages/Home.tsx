@@ -5,7 +5,7 @@ const Home: React.FC = () => {
     return (
         <main className="home">
             <section className="hero">
-                <img src="head.jpg" alt="Your Name" className="hero-image" />
+                <img src="head.jpg" alt="a small picture of John" className="hero-image" />
                 <div className="hero-content">
                     <h1>John Jamieson</h1>
                     <p className="tagline">Software Developer & Former Senior Business Analyst</p>
@@ -17,17 +17,13 @@ const Home: React.FC = () => {
                         Computer Programming & Analysis program and the University of Toronto’s
                         Full Stack Web Development program.
                     </p>
-                    <div className="cta-buttons">
-                        <a href="/resume" className="btn">Resume</a>
-                        <a href="/projects" className="btn">Projects</a>
-                    </div>
                 </div>
             </section>
 
             <section className="featured-image-section">
                 <img
                     src="bigHead.jpg"
-                    alt="Featured Work or Background"
+                    alt="a big picture of John"
                     className="featured-image"
                 />
             </section>
