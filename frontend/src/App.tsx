@@ -1,24 +1,27 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './styles/index.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './pages/Home';
+import Resume from './pages/Resume';
+import Projects from './pages/Projects';
 
 const App: React.FC = () => {
-    const [message, setMessage] = useState('Loading message...');
-    useEffect(() => {
-        fetch('/api/message')
-            .then((res) => res.json())
-            .then((data) => setMessage(data.message))
-            .catch((err) => {
-                console.error('Error fetching message:', err);
-                setMessage('Error fetching message');
-            });
-    }, []);
     return (
-        <div className="App">
-            <h1>Welcome to the Colorful React App!</h1>
-            <p>{message}</p>
-            <Home />
-        </div>
+        <Router>
+            <div className="App">
+                <Header />
+                <main>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/resume" element={<Resume />} />
+                        <Route path="/projects" element={<Projects />} />
+                    </Routes>
+                </main>
+                <Footer />
+            </div>
+        </Router>
     );
 };
 
