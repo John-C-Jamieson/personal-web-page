@@ -7,31 +7,30 @@ const Resume: React.FC = () => {
             <header className="resume-header">
                 <h1>John Jamieson</h1>
                 <p>Toronto, Ontario, Canada</p>
-                <h2>Software Developer &amp; Former Senior Business Analyst</h2>
+                <h2>Experienced Technical Professional<br/>&amp;<br/>Former Senior Business Analyst</h2>
             </header>
 
             <section className="resume-summary">
                 <h2>Profile</h2>
                 <p>
-                    Software developer with over 2 years of experience in Agile DevOps teams at one of
-                    Canada's largest organizations and nearly 10 years of business analysis expertise at
-                    prominent companies. Holds an honours bachelor's degree in Business Administration from
-                    Wilfrid Laurier University, supplemented by technical education from Seneca’s Computer
-                    Programming & Analysis program and the University of Toronto’s Full Stack Web Development
-                    program.
+                    Experienced technical professional with over 2 years of industry experience in software
+                    development at CIBC, the fifth largest financial institution in Canada, and nearly 10 years of
+                    industry experience in business analysis. Holds an honours bachelor's degree in Business
+                    Administration from Wilfrid Laurier University, supplemented by technical education from Seneca’s
+                    Computer Programming &amp; Analysis program and the University of Toronto’s Full Stack Web
+                    Development program.
                 </p>
             </section>
 
             <section className="resume-skills">
                 <h2>Skills</h2>
                 <ul>
-                    <li>Software Reliability Engineering</li>
-                    <li>Cloud Infrastructure Monitoring &amp; Logging</li>
-                    <li>Incident Response &amp; Troubleshooting</li>
-                    <li>Infrastructure as Code (IaC)</li>
-                    <li>Automation &amp; Scripting</li>
-                    <li>CI/CD &amp; Deployment Automation</li>
-                    <li>Containerization &amp; DevOps</li>
+                    <li>Full-Stack Software Development</li>
+                    <li>REST API &amp; Microservices</li>
+                    <li>CI/CD, Cloud Deployment &amp; Secure Coding Practices</li>
+                    <li>Test-Driven Development &amp; Quality Assurance</li>
+                    <li>Database Design &amp; Management</li>
+                    <li>Agile Methodologies &amp; Team Collaboration</li>
                 </ul>
             </section>
 
@@ -39,22 +38,22 @@ const Resume: React.FC = () => {
                 <h2>Technology</h2>
                 <ul>
                     <li>
-                        <strong>Languages:</strong> Python, JavaScript
+                        <strong>Languages:</strong> Java / Kotlin, JavaScript / TypeScript, SQL
                     </li>
                     <li>
-                        <strong>Monitoring &amp; Logging:</strong> Datadog, Splunk
+                        <strong>Backend Frameworks:</strong> Spring Boot, Express
                     </li>
                     <li>
-                        <strong>Cloud &amp; Infrastructure:</strong> AWS, Azure
+                        <strong>Frontend Frameworks:</strong> Angular, React
                     </li>
                     <li>
-                        <strong>Containerization &amp; Orchestration:</strong> Docker, Kubernetes
+                        <strong>Databases:</strong> MySQL, PostgreSQL
                     </li>
                     <li>
-                        <strong>Incident Management:</strong> PagerDuty, Squadcast
+                        <strong>Version Control:</strong> Git, GitHub
                     </li>
                     <li>
-                        <strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, DynamoDB
+                        <strong>Build Tools &amp; Package Managers:</strong> NPM, Maven
                     </li>
                 </ul>
             </section>
@@ -69,27 +68,28 @@ const Resume: React.FC = () => {
                     <h4>Technical Analyst, ServiceNow Systems</h4>
                     <ul>
                         <li>
-                            Quickly became one of the top technical experts for ServiceNow on the team, working on
-                            complex analysis to create problem diagnosis and potential solution reports.
+                            Quickly became one of the top technical experts for ServiceNow on the team, working on complex analysis to create problem diagnosis and potential solution reports.
+                        </li>
+                        <li>
+                            Served as a key technical resource, troubleshooting complex incidents by analyzing logs, stack traces, and system metrics to drive rapid resolutions.
                         </li>
                     </ul>
                     <h4>Business Analyst, Change Management</h4>
                     <ul>
                         <li>
-                            Designed and built new and complex JIRA, Confluence, and EasyBI reports used by directors
-                            and managers for improved decision making.
+                            Designed and built new and complex JIRA, Confluence, and EasyBI reports that were used by directors and managers for improved decision making.
                         </li>
                         <li>
-                            Collaborated with technical teams through one-on-one meetings and training to reduce roadblocks
-                            and expedite the change submission and approval process.
+                            Worked closely with the technical teams through one on one meetings and training to dramatically reduce the number of roadblocks encountered and generally sped up the change submission and approval process.
                         </li>
                     </ul>
                     <h4>Technical Analyst, Payment Systems</h4>
                     <ul>
                         <li>
-                            Refactored multiple programs—streamlining one from four files (674 lines) to two files (378 lines),
-                            a 44% reduction—while enhancing commenting and readability for improved maintainability and
-                            reduced debugging time.
+                            Refactored multiple programs, including streamlining one from four files (674 lines) to two files (378 lines), a 44% reduction, while enhancing commenting and readability, leading to improved maintainability and reduced debugging time.
+                        </li>
+                        <li>
+                            Lead root cause analysis and collaborated with cross-functional teams to troubleshoot and resolve critical system issues, ensuring high service reliability.
                         </li>
                     </ul>
                 </div>
@@ -102,16 +102,13 @@ const Resume: React.FC = () => {
                     <h4>Senior Accountant</h4>
                     <ul>
                         <li>
-                            Reduced monthly turnaround time on financial reporting—from a week to just hours—through
-                            automation of financial models and other improvements.
+                            Reduced monthly turnaround time on financial reporting, in some cases from a week to just hours, with automation of financial models and other improvements.
                         </li>
                         <li>
-                            Coordinated with internal stakeholders to transition from the old IAS 18 standard to the new
-                            IFRS 15 revenue standard.
+                            Worked with the relevant internal stakeholders to coordinate the transition from the old IAS 18 standard to the new IFRS 15 revenue standard.
                         </li>
                         <li>
-                            Created new revenue and cost of sales calculation systems for hundreds of projects in multiple
-                            currencies across business entities.
+                            Created new revenue and cost of sales calculations system for hundreds of different projects in multiple currencies across multiple business entities.
                         </li>
                     </ul>
                 </div>
@@ -124,11 +121,10 @@ const Resume: React.FC = () => {
                     <h4>Intermediate Accountant</h4>
                     <ul>
                         <li>
-                            Automated the monthly accounting process by replacing manual Excel-based methods with a system
-                            that pulls data via SQL from the organization's main database.
+                            Converted the monthly accounting process from a manual system reliant on multiple unconnected Microsoft Excel documents to an automated system that pulls data via SQL from the organization's main database.
                         </li>
                         <li>
-                            Enhanced Excel formulas and reports to dramatically improve reporting quality and speed.
+                            Developed new, and improved existing, Excel formulas and documents which dramatically improved reporting quality and speed.
                         </li>
                     </ul>
                 </div>
@@ -141,8 +137,10 @@ const Resume: React.FC = () => {
                     <h4>Junior Accountant</h4>
                     <ul>
                         <li>
-                            Improved management’s access to financial information by designing and automating customized
-                            metrics dashboards.
+                            Created custom metrics dashboards to improve management’s access to real-time financial data.
+                        </li>
+                        <li>
+                            Partnered with stakeholders to automate reporting solutions, significantly enhancing operational efficiency.
                         </li>
                     </ul>
                 </div>
@@ -158,8 +156,7 @@ const Resume: React.FC = () => {
                         <strong>Computer Programming &amp; Analysis</strong> – Seneca College, Toronto, Ontario, Canada
                     </li>
                     <li>
-                        <strong>Bachelor of Business Administration</strong> – Wilfrid Laurier University, Waterloo, Ontario,
-                        Canada
+                        <strong>Bachelor of Business Administration</strong> – Wilfrid Laurier University, Waterloo, Ontario, Canada
                     </li>
                 </ul>
             </section>
@@ -167,11 +164,55 @@ const Resume: React.FC = () => {
             <section className="resume-projects">
                 <h2>Personal Projects</h2>
                 <div className="project-item">
-                    <h3>John &amp; Rosemary’s Wedding Website</h3>
+                    <h3>John’s Profile Website</h3>
+                    <p>
+                        <em>TypeScript Node Web Application (still in development)</em>
+                    </p>
                     <p>
                         <strong>Repository:</strong>{' '}
                         <a
-                            href="https://github.com/John-C-Jamieson/weddingJava"
+                            href="https://github.com/John-C-Jamieson/personal-web-page"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+                    </p>
+                    <p>
+                        <strong>Deployment:</strong>{' '}
+                        <a
+                            href="https://www.johnjamieson.ca/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            www.johnjamieson.ca
+                        </a>
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Build Automation:</strong> NPM + Maven
+                        </li>
+                        <li>
+                            <strong>Frontend:</strong> React + TypeScript
+                        </li>
+                        <li>
+                            <strong>Backend:</strong> Spring + Java
+                        </li>
+                        <li>
+                            <strong>Deployment:</strong> Netlify + GitHub
+                        </li>
+                    </ul>
+                </div>
+
+                <div className="project-item">
+                    <h3>John &amp; Rosemary’s Wedding Website</h3>
+                    <p>
+                        <em>TypeScript Node Web Application (still in development)</em>
+                    </p>
+                    <p>
+                        <strong>Repository:</strong>{' '}
+                        <a
+                            href="https://github.com/John-C-Jamieson/wedding"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -190,54 +231,16 @@ const Resume: React.FC = () => {
                     </p>
                     <ul>
                         <li>
-                            <strong>Build Automation:</strong> Maven
+                            <strong>Build Automation:</strong> NPM + Maven
                         </li>
                         <li>
-                            <strong>Frontend:</strong> Bootstrap, Thymeleaf, HTML, CSS, JavaScript
+                            <strong>Frontend:</strong> Angular + TypeScript
                         </li>
                         <li>
-                            <strong>Backend:</strong> Java, Spring, MySQL, Dotenv
+                            <strong>Backend:</strong> Spring + Java
                         </li>
                         <li>
-                            <strong>Deployment:</strong> Heroku, JawsDB, GitHub
-                        </li>
-                    </ul>
-                </div>
-
-                <div className="project-item">
-                    <h3>John’s Profile Website</h3>
-                    <p>
-                        <strong>Repository:</strong>{' '}
-                        <a
-                            href="https://github.com/John-C-Jamieson/personal-web-page"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            GitHub
-                        </a>
-                    </p>
-                    <p>
-                        <strong>Deployment:</strong>{' '}
-                        <a
-                            href="https://www.johnjamieson.ca/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            johnjamieson.ca
-                        </a>
-                    </p>
-                    <ul>
-                        <li>
-                            <strong>Build Automation:</strong> NPM
-                        </li>
-                        <li>
-                            <strong>Frontend:</strong> TypeScript, React
-                        </li>
-                        <li>
-                            <strong>Backend:</strong> TypeScript, Express
-                        </li>
-                        <li>
-                            <strong>Deployment:</strong> Netlify, GitHub
+                            <strong>Deployment:</strong> Netlify + GitHub
                         </li>
                     </ul>
                 </div>
