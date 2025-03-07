@@ -26,35 +26,31 @@ const Resume: React.FC = () => {
                 <h2>Skills</h2>
                 <ul>
                     <li>Full-Stack Software Development</li>
-                    <li>REST API &amp; Microservices</li>
-                    <li>CI/CD, Cloud Deployment &amp; Secure Coding Practices</li>
-                    <li>Test-Driven Development &amp; Quality Assurance</li>
-                    <li>Database Design &amp; Management</li>
-                    <li>Agile Methodologies &amp; Team Collaboration</li>
+                    <li>REST API &amp; Microservices Design and Implementation</li>
+                    <li>CI/CD Pipelines</li>
+                    <li>Automated Builds &amp; Cloud Deployment</li>
+                    <li>Secure Coding Practices</li>
+                    <li>Application Performance Optimization</li>
+                    <li>Test-Driven Development (TDD)</li>
+                    <li>Unit &amp; Integration Testing</li>
+                    <li>Agile Methodologies</li>
+                    <li>Team Collaboration &amp; Code Reviews</li>
+                    <li>Database Design</li>
+                    <li>Query Optimization</li>
+                    <li>System Administration</li>
                 </ul>
             </section>
 
             <section className="resume-technology">
                 <h2>Technology</h2>
                 <ul>
-                    <li>
-                        <strong>Languages:</strong> Java / Kotlin, JavaScript / TypeScript, SQL
-                    </li>
-                    <li>
-                        <strong>Backend Frameworks:</strong> Spring Boot, Express
-                    </li>
-                    <li>
-                        <strong>Frontend Frameworks:</strong> Angular, React
-                    </li>
-                    <li>
-                        <strong>Databases:</strong> MySQL, PostgreSQL
-                    </li>
-                    <li>
-                        <strong>Version Control:</strong> Git, GitHub
-                    </li>
-                    <li>
-                        <strong>Build Tools &amp; Package Managers:</strong> NPM, Maven
-                    </li>
+                    <li><strong>Languages:</strong> Java, Kotlin, JavaScript, TypeScript, SQL</li>
+                    <li><strong>Backend:</strong> Spring Boot, Express</li>
+                    <li><strong>Frontend:</strong> Angular, React</li>
+                    <li><strong>Databases:</strong> MySQL, PostgreSQL</li>
+                    <li><strong>Version Control:</strong> Git, GitHub</li>
+                    <li><strong>Build Tools &amp; Deployment:</strong> Maven, NPM, Jenkins, Docker, Kubernetes</li>
+                    <li><strong>Testing Frameworks:</strong> JUnit, Mockito, Cypress</li>
                 </ul>
             </section>
 
