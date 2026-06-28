@@ -1,35 +1,87 @@
-import React from 'react';
-import '../styles/Home.css';
+import React from "react";
+import { profile, skills, experience, education } from "../data/profile";
 
-const Home: React.FC = () => {
-    return (
-        <main className="home">
-            <section className="hero">
-                <img src="head.jpg" alt="small John" className="hero-image" />
-                <div className="hero-content">
-                    <h1>John Jamieson</h1>
-                    <p className="tagline">Software Developer & Former Senior Business Analyst</p>
-                    <p className="introduction">
-                        Software developer with over 2 years of experience in Agile DevOps teams at one of
-                        Canada's largest organizations and nearly 10 years of business analysis expertise at
-                        prominent companies. Holds an honours bachelor's degree in Business Administration from
-                        Wilfrid Laurier University, supplemented by technical education from Seneca’s
-                        Computer Programming & Analysis program and the University of Toronto’s
-                        Full Stack Web Development program.
-                    </p>
-                </div>
-            </section>
+const Home: React.FC = () => (
+  <main id="top">
+    <section className="hero">
+      <div className="container hero-inner">
+        <div className="hero-text">
+          <p className="eyebrow">{profile.eyebrow}</p>
+          <h1>{profile.headline}</h1>
+          <p className="subline">{profile.subline}</p>
+          <p className="intro">{profile.intro}</p>
+        </div>
+        <img
+          className="avatar"
+          src={`${process.env.PUBLIC_URL}/head.jpg`}
+          alt="John Jamieson"
+        />
+      </div>
+    </section>
 
-            <section className="featured-image-section">
-                <img
-                    src="bigHead.jpg"
-                    alt="big John"
-                    className="featured-image"
-                />
-            </section>
+    <section id="about" className="section alt">
+      <div className="container">
+        <h2>About</h2>
+        <p className="lead">{profile.about}</p>
+      </div>
+    </section>
 
-        </main>
-    );
-};
+    <section id="skills" className="section">
+      <div className="container">
+        <h2>Core skills</h2>
+        <div className="cards">
+          {skills.map((s) => (
+            <div className="card" key={s.title}>
+              <h3>{s.title}</h3>
+              <p>{s.items}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" className="section alt">
+      <div className="container">
+        <h2>Experience</h2>
+        {experience.map((item, i) =>
+          item.type === "job" ? (
+            <article className="xp" key={i}>
+              <div className="xp-head">
+                <span className="xp-co">{item.company}</span>
+                <span className="xp-dt">
+                  {item.dates} · {item.location}
+                </span>
+              </div>
+              <p className="xp-role">{item.role}</p>
+              <ul>
+                {item.bullets.map((b, j) => (
+                  <li key={j}>{b}</li>
+                ))}
+              </ul>
+            </article>
+          ) : (
+            <p className="xp-note" key={i}>
+              <strong>{item.label}</strong> {item.text}
+            </p>
+          )
+        )}
+      </div>
+    </section>
+
+    <section id="education" className="section">
+      <div className="container">
+        <h2>Education</h2>
+        <ul className="edu">
+          {education.map((e) => (
+            <li key={e.credential}>
+              <span className="edu-cred">{e.credential}</span> — {e.school}
+              <span className="edu-year"> · {e.year}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  </main>
+);
 
 export default Home;

@@ -1,19 +1,27 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/NavBar.css';
+import React from "react";
 
-const NavBar: React.FC = () => {
-    return (
-        <nav className="navbar">
-            <div className="navbar-brand">
-                <Link to="/">John Jamieson</Link>
-            </div>
-            <div className="navbar-links">
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-            </div>
-        </nav>
-    );
-};
+const links = [
+  { href: "#about", label: "About" },
+  { href: "#skills", label: "Skills" },
+  { href: "#experience", label: "Experience" },
+  { href: "#education", label: "Education" },
+];
+
+const NavBar: React.FC = () => (
+  <header className="nav">
+    <div className="nav-inner">
+      <a className="brand" href="#top">
+        John Jamieson
+      </a>
+      <nav className="nav-links" aria-label="Section navigation">
+        {links.map((l) => (
+          <a key={l.href} href={l.href}>
+            {l.label}
+          </a>
+        ))}
+      </nav>
+    </div>
+  </header>
+);
 
 export default NavBar;
