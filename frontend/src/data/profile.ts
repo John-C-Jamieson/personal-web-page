@@ -71,9 +71,10 @@ export const experience: ExperienceItem[] = [
     dates: "Nov 2025 – Present",
     location: "Toronto",
     bullets: [
-      "Write SQL against MS SQL Server to fulfil ad-hoc reporting and data-extract requests and resolve application and data issues — turning operational data into answers people use to make decisions.",
+      "Completed 30+ ad-hoc reporting and data-extract requests in roughly six months — writing SQL against MS SQL Server to support 5+ business areas, including mortgage operations, broker analytics, residential administration, project and transformation teams, and application support.",
+      "Built repeatable SQL reporting logic for complex audit and operational requests — including a CMHC/Emili audit report spanning 13+ data points, multiple stakeholder validation cycles, and reusable scripts for future report pulls.",
+      "Validated data across three mortgage and customer source systems (MyMortgage, Merlin, Optimus), resolving source-system limitations and one-to-many applicant and contact relationships before delivery.",
       "Designed and prototyped an AI-assisted semantic search over historical ticket data (vector embeddings / retrieval-augmented generation) to turn operational history into a reusable knowledge base.",
-      "Build and maintain documentation, queries, and data/knowledge assets used across a cross-functional team.",
     ],
   },
   {
@@ -84,7 +85,7 @@ export const experience: ExperienceItem[] = [
   {
     type: "job",
     company: "CIBC",
-    role: "Change Planning Analyst",
+    role: "Senior Change Planning Analyst",
     dates: "Jan 2022 – Jul 2024",
     location: "Toronto",
     bullets: [

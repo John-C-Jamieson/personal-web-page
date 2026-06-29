@@ -191,8 +191,8 @@ h2 {
   white-space: nowrap;
 }
 .xp-role {
-  color: var(--acc);
-  font-weight: 500;
+  color: var(--ink2);
+  font-weight: 600;
   font-size: 14.5px;
   margin: 2px 0 10px;
 }
